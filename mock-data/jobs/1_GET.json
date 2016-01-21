@@ -1,0 +1,10 @@
+{
+  "_id": 1,
+  "employer": "Liberty Mutual Insurance",
+  "positions": [
+    {
+      "name": "Software Developer",
+      "location": "Boston, MA"
+    }
+  ]
+}

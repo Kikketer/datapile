@@ -1,0 +1,14 @@
+{
+  "name": "data-pile-server",
+  "version": "0.0.1",
+  "description": "A mock backend for your Native Web applications to provide JSON results and allow simple CRUD operations.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "mock-server"
+  ],
+  "author": "Chris Weed (christopher.weed@libertymutual.com)",
+  "license": "MIT"
+}
