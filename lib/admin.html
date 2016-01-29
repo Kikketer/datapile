@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DataPile Admin</title>
+</head>
+<body>
+<h1>Datapile Admin</h1>
+<button onclick="setStatuses(200)">Return 200s</button>
+<button onclick="setStatuses(500)">Return 500s</button>
+<button onclick="setStatuses(403)">Return 403s</button>
+<p>Currently the server returns <strong id="status"></strong> for all valid requests.</p>
+<pre>
+  TODO: Console out what's going on
+</pre>
+
+<script type="text/javascript">
+
+  function setStatuses(status) {
+    var request = new XMLHttpRequest();
+    request.open('POST', '/');
+    request.onreadystatechange = function() {
+      if (request.readyState != 4 || request.status != 200) return;
+      document.getElementById('status').innerText = JSON.parse(request.responseText).status;
+    };
+    request.send(JSON.stringify({status: status}));
+  }
+
+  function getStatus() {
+    var request = new XMLHttpRequest();
+    request.open('PUT', '/');   // Who cares what the types are supposed to be used for
+    request.onreadystatechange = function() {
+      if (request.readyState != 4 || request.status != 200) return;
+      document.getElementById('status').innerText = JSON.parse(request.responseText).status;
+    };
+    request.send(JSON.stringify({status: status}));
+  }
+
+  getStatus();
+</script>
+</body>
+</html>

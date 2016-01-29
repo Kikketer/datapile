@@ -31,4 +31,4 @@ if (arguments) {
   }
 }
 
-var datapile = require('../app.js')(resultConfig);
+var datapile = require('../lib/app.js')(resultConfig);

@@ -31,6 +31,10 @@ In the mock-data folder you create, you will need to create a `.json` file for a
 
 The items in the mock-data folder part of this project are a working example.
 
+### Admin
+
+If you hit the root of the server that is running, you will see the admin screen. Currently it's a work in progress, but it does allow you to alter the responses of the server at any given moment.  This is handy when you want to test authentication or server errors.
+
 ### Features
 
 There is a mock-data folder with the server.  Here you will see a couple examples already built for you.  To build out the server responses you simply need to create the array responses.  The Data Pile will then assume CRUD operations on these arrays given each has an "_id" attribute.
