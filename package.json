@@ -18,5 +18,11 @@
     "url": "git+https://github.com/Kikketer/datapile.git"
   },
   "author": "Chris Weed (chris@cjweed.com)",
+  "maintainers": [
+    {
+      "name": "Chris",
+      "email": "chris@cjweed.com"
+    }
+  ],
   "license": "MIT"
 }
