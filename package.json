@@ -13,6 +13,10 @@
   "keywords": [
     "mock-server"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kikketer/datapile.git"
+  },
   "author": "Chris Weed (chris@cjweed.com)",
   "license": "MIT"
 }
