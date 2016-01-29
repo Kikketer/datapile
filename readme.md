@@ -7,7 +7,7 @@ A simple backend server to help build Single Page Applications (Native Web) by p
 To install via NPM run:
 
 ````
-npm install mock-data-server
+npm install datapile
 ````
 
 By default the server will look to a folder called "mock-data".  Create this folder much the same as it's build out in the "mock-data" folder in this project.
