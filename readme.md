@@ -22,7 +22,7 @@ A recommended way to start the server is to add a script item in your package.js
 Instead of using the .mockserver config file, you can send in the same items into the command line (or in the scripts section of your package.json):
 
 ````
-datapileserver --port 3001 --dataFolder "mock-data"
+datapile --port 3001 --dataFolder "mock-data"
 ````
 
 ### Usage
