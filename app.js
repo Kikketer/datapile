@@ -1,6 +1,5 @@
 /**
- * Chris Weed (christopher.weed@libertymutual.com)
- * Copyright 2015 Liberty Mutual Insurance
+ * Chris Weed (chris@cjweed.com)
  *
  * The goal is to have 0 external dependencies, NPM install is known to break within
  * our enterprise environment.  So if you have Node you can run this critter!

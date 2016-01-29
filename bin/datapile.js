@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Chris Weed (christopher.weed@libertymutual.com)
- * Copyright 2016 Liberty Mutual Insurance
+ * Chris Weed (chris@cjweed.com)
  */
 
 var path = require('path');
