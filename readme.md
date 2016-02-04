@@ -15,7 +15,7 @@ By default the server will look to a folder called "mock-data".  Create this fol
 A recommended way to start the server is to add a script item in your package.json:
 
 ````
-  "mockserver": "datapileserver"
+  "mockserver": "datapile"
 ````
 
 ### CLI
