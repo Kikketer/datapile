@@ -25,6 +25,12 @@ if (arguments) {
     else if (arguments[i] === '--dataFolder' && arguments[i + 1]) {
       resultConfig.dataFolder = arguments[i + 1];
     }
+    else if (arguments[i] === '--host' && arguments[i + 1]) {
+      resultConfig.host = arguments[i + 1];
+    }
+    else if (arguments[i] === '--delay' && arguments[i + 1]) {
+      resultConfig.delay = arguments[i + 1];
+    }
     else if (!arguments[i + 1]) {
       console.error('Error in your command, check the docs');
     }
