@@ -40,6 +40,10 @@ In the mock-data folder you create, you will need to create a `.json` file for a
 
 The items in the mock-data folder part of this project are a working example.
 
+#### Proxy Server
+
+To closer imitate a proxy server, this server also checks for a header called `"original-url"` and uses that if present.  This allows you to always hit the same endpoint (say /service*) and send original url to more closely mimic a proxy server (like netflix Zuul).
+
 ### Admin
 
 If you hit the root of the server that is running, you will see the admin screen. Currently it's a work in progress, but it does allow you to alter the responses of the server at any given moment.  This is handy when you want to test authentication or server errors.

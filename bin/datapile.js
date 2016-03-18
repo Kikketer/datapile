@@ -31,6 +31,9 @@ if (arguments) {
     else if (arguments[i] === '--delay' && arguments[i + 1]) {
       resultConfig.delay = arguments[i + 1];
     }
+    else if (arguments[i] === '--static' && arguments[i + 1] != null) {
+      resultConfig.static = arguments[i + 1];
+    }
     else if (!arguments[i + 1]) {
       console.error('Error in your command, check the docs');
     }
