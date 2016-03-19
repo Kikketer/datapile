@@ -1,6 +1,6 @@
 {
   "name": "datapile",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A mock backend for your Native Web applications to provide JSON results and allow simple CRUD operations.",
   "main": "app.js",
   "bin": "./bin/datapile.js",
