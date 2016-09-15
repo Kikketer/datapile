@@ -34,6 +34,9 @@ if (arguments) {
     else if (arguments[i] === '--static' && arguments[i + 1] != null) {
       resultConfig.static = arguments[i + 1];
     }
+    else if (arguments[i] === '--ignoreQuery' && arguments[i + 1] != null) {
+      resultConfig.blacklistQuery = arguments[i + 1].split(',');
+    }
     else if (!arguments[i + 1]) {
       console.error('Error in your command, check the docs');
     }

@@ -33,6 +33,7 @@ datapile --port 3001 --host 0.0.0.0 --dataFolder "mock-data" --delay -1
 | `host` | The host to serve on | "localhost" |
 | `dataFolder` | The folder to serve up | "./mock-data" |
 | `delay` | The ms delay to introduce to the responses. -1 = random (0-1000) | 0 |
+| `ignoreQuery` | Ignore any query parameters in this comma delimited list | |
 
 ### Usage
 
@@ -51,6 +52,12 @@ If you hit the root of the server that is running, you will see the admin screen
 ### Features
 
 There is a mock-data folder with the server.  Here you will see a couple examples already built for you.  To build out the server responses you simply need to create the array responses.
+
+### Ignoring Query Parameters
+
+Some applications require ignoring some query string parameters, namely a cache bust style query parameter.  To ignore parameters simply add the `--ignoreQuery` flag with a comma delimited list of query parameters to ignore:
+
+`--ignoreQuery v,index`
 
 ### TODO
 

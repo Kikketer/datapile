@@ -8,7 +8,7 @@
     "start": "node bin/datapile.js"
   },
   "engines": {
-    "node": "^0.12.x"
+    "node": "^0.5.x"
   },
   "keywords": [
     "mock-server"
